@@ -44,6 +44,11 @@
             this.btnTotalWageDesc = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.dgvPayroll = new System.Windows.Forms.DataGridView();
+            this.FullName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Department = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.WageRate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HoursWorked = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TotalWage = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.sideBarPanel.SuspendLayout();
             this.logoPanel.SuspendLayout();
             this.sortPanel.SuspendLayout();
@@ -239,6 +244,12 @@
             this.dgvPayroll.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable;
             this.dgvPayroll.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dgvPayroll.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPayroll.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.FullName,
+            this.Department,
+            this.WageRate,
+            this.HoursWorked,
+            this.TotalWage});
             this.dgvPayroll.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvPayroll.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
             this.dgvPayroll.ImeMode = System.Windows.Forms.ImeMode.Off;
@@ -248,6 +259,31 @@
             this.dgvPayroll.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.dgvPayroll.Size = new System.Drawing.Size(1030, 416);
             this.dgvPayroll.TabIndex = 5;
+            // 
+            // FullName
+            // 
+            this.FullName.HeaderText = "Name";
+            this.FullName.Name = "FullName";
+            // 
+            // Department
+            // 
+            this.Department.HeaderText = "Department";
+            this.Department.Name = "Department";
+            // 
+            // WageRate
+            // 
+            this.WageRate.HeaderText = "Wage Rate";
+            this.WageRate.Name = "WageRate";
+            // 
+            // HoursWorked
+            // 
+            this.HoursWorked.HeaderText = "Hours Worked";
+            this.HoursWorked.Name = "HoursWorked";
+            // 
+            // TotalWage
+            // 
+            this.TotalWage.HeaderText = "Total Wage";
+            this.TotalWage.Name = "TotalWage";
             // 
             // frmGeneratePayRoll
             // 
@@ -296,5 +332,10 @@
         private System.Windows.Forms.Button btnNameDescending;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DataGridView dgvPayroll;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FullName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Department;
+        private System.Windows.Forms.DataGridViewTextBoxColumn WageRate;
+        private System.Windows.Forms.DataGridViewTextBoxColumn HoursWorked;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TotalWage;
     }
 }
