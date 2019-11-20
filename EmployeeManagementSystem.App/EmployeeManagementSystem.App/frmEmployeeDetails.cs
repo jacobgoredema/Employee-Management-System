@@ -16,5 +16,24 @@ namespace EmployeeManagementSystem.App
         {
             InitializeComponent();
         }
+
+        public int SaveRecord { get; private set; }
+
+        private void btnAddEmployee_Click(object sender, EventArgs e)
+        {
+            var addEmployee = new frmAddEmployee();
+            addEmployee.IdentityUpdated += this.SaveRecord;
+            addEmployee.ShowDialog();
+        }
+
+        private void btnGeneratePayroll_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnGenerateReport_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
