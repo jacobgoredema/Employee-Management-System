@@ -46,11 +46,11 @@
             this.txtDesignation = new System.Windows.Forms.TextBox();
             this.txtWageRate = new System.Windows.Forms.TextBox();
             this.txtHoursWorked = new System.Windows.Forms.TextBox();
-            this.cboDateJoined = new System.Windows.Forms.ComboBox();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
             this.cboDepartment = new System.Windows.Forms.ComboBox();
             this.groupBox = new System.Windows.Forms.GroupBox();
+            this.dtpDateJoined = new System.Windows.Forms.DateTimePicker();
             this.groupBox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -209,15 +209,6 @@
             this.txtHoursWorked.Size = new System.Drawing.Size(290, 23);
             this.txtHoursWorked.TabIndex = 9;
             // 
-            // cboDateJoined
-            // 
-            this.cboDateJoined.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cboDateJoined.FormattingEnabled = true;
-            this.cboDateJoined.Location = new System.Drawing.Point(131, 323);
-            this.cboDateJoined.Name = "cboDateJoined";
-            this.cboDateJoined.Size = new System.Drawing.Size(290, 24);
-            this.cboDateJoined.TabIndex = 10;
-            // 
             // btnCancel
             // 
             this.btnCancel.BackColor = System.Drawing.Color.Maroon;
@@ -255,6 +246,7 @@
             // 
             // groupBox
             // 
+            this.groupBox.Controls.Add(this.dtpDateJoined);
             this.groupBox.Controls.Add(this.txtFullname);
             this.groupBox.Controls.Add(this.cboDepartment);
             this.groupBox.Controls.Add(this.label1);
@@ -262,7 +254,6 @@
             this.groupBox.Controls.Add(this.label2);
             this.groupBox.Controls.Add(this.btnCancel);
             this.groupBox.Controls.Add(this.label3);
-            this.groupBox.Controls.Add(this.cboDateJoined);
             this.groupBox.Controls.Add(this.label4);
             this.groupBox.Controls.Add(this.txtHoursWorked);
             this.groupBox.Controls.Add(this.label5);
@@ -282,6 +273,14 @@
             this.groupBox.Size = new System.Drawing.Size(436, 416);
             this.groupBox.TabIndex = 0;
             this.groupBox.TabStop = false;
+            // 
+            // dtpDateJoined
+            // 
+            this.dtpDateJoined.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpDateJoined.Location = new System.Drawing.Point(131, 324);
+            this.dtpDateJoined.Name = "dtpDateJoined";
+            this.dtpDateJoined.Size = new System.Drawing.Size(290, 22);
+            this.dtpDateJoined.TabIndex = 13;
             // 
             // frmAddEmployee
             // 
@@ -320,11 +319,11 @@
         private System.Windows.Forms.TextBox txtDesignation;
         private System.Windows.Forms.TextBox txtWageRate;
         private System.Windows.Forms.TextBox txtHoursWorked;
-        private System.Windows.Forms.ComboBox cboDateJoined;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.ComboBox cboDepartment;
         private System.Windows.Forms.GroupBox groupBox;
+        private System.Windows.Forms.DateTimePicker dtpDateJoined;
     }
 }
 

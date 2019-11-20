@@ -44,7 +44,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panelFooter = new System.Windows.Forms.Panel();
             this.btnDelete = new System.Windows.Forms.Button();
-            this.dgvEditOnF2 = new System.Windows.Forms.DataGridView();
+            this.dgvEmployee = new System.Windows.Forms.DataGridView();
             this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.FullName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Address = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -60,7 +60,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picBoxLogo)).BeginInit();
             this.headerPanel.SuspendLayout();
             this.panelFooter.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvEditOnF2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvEmployee)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -240,7 +240,7 @@
             // 
             this.panelFooter.BackColor = System.Drawing.Color.Silver;
             this.panelFooter.Controls.Add(this.btnDelete);
-            this.panelFooter.Controls.Add(this.dgvEditOnF2);
+            this.panelFooter.Controls.Add(this.dgvEmployee);
             this.panelFooter.Controls.Add(this.btnExportData);
             this.panelFooter.Controls.Add(this.button1);
             this.panelFooter.Controls.Add(this.btnImportData);
@@ -265,13 +265,13 @@
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = false;
             // 
-            // dgvEditOnF2
+            // dgvEmployee
             // 
-            this.dgvEditOnF2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dgvEditOnF2.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable;
-            this.dgvEditOnF2.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            this.dgvEditOnF2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvEditOnF2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvEmployee.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dgvEmployee.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable;
+            this.dgvEmployee.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            this.dgvEmployee.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvEmployee.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Id,
             this.FullName,
             this.Address,
@@ -282,14 +282,14 @@
             this.DateOfJoining,
             this.WageRage,
             this.HoursWorked});
-            this.dgvEditOnF2.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
-            this.dgvEditOnF2.ImeMode = System.Windows.Forms.ImeMode.Off;
-            this.dgvEditOnF2.Location = new System.Drawing.Point(0, 0);
-            this.dgvEditOnF2.Name = "dgvEditOnF2";
-            this.dgvEditOnF2.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            this.dgvEditOnF2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.dgvEditOnF2.Size = new System.Drawing.Size(1046, 414);
-            this.dgvEditOnF2.TabIndex = 4;
+            this.dgvEmployee.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
+            this.dgvEmployee.ImeMode = System.Windows.Forms.ImeMode.Off;
+            this.dgvEmployee.Location = new System.Drawing.Point(0, 0);
+            this.dgvEmployee.Name = "dgvEmployee";
+            this.dgvEmployee.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            this.dgvEmployee.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.dgvEmployee.Size = new System.Drawing.Size(1046, 414);
+            this.dgvEmployee.TabIndex = 4;
             // 
             // Id
             // 
@@ -362,7 +362,7 @@
             this.headerPanel.ResumeLayout(false);
             this.headerPanel.PerformLayout();
             this.panelFooter.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvEditOnF2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvEmployee)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -376,7 +376,7 @@
         private System.Windows.Forms.Panel sideBarPanel;
         private System.Windows.Forms.Panel headerPanel;
         private System.Windows.Forms.Panel panelFooter;
-        private System.Windows.Forms.DataGridView dgvEditOnF2;
+        private System.Windows.Forms.DataGridView dgvEmployee;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panelLogo;
