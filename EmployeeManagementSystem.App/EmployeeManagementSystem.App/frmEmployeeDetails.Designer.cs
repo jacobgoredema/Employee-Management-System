@@ -222,7 +222,7 @@
             this.headerPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.headerPanel.Location = new System.Drawing.Point(176, 0);
             this.headerPanel.Name = "headerPanel";
-            this.headerPanel.Size = new System.Drawing.Size(854, 53);
+            this.headerPanel.Size = new System.Drawing.Size(1039, 53);
             this.headerPanel.TabIndex = 1;
             // 
             // label1
@@ -248,7 +248,7 @@
             this.panelFooter.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelFooter.Location = new System.Drawing.Point(176, 53);
             this.panelFooter.Name = "panelFooter";
-            this.panelFooter.Size = new System.Drawing.Size(854, 463);
+            this.panelFooter.Size = new System.Drawing.Size(1039, 463);
             this.panelFooter.TabIndex = 0;
             // 
             // btnDelete
@@ -328,7 +328,7 @@
             // 
             // DateOfJoining
             // 
-            this.DateOfJoining.HeaderText = "Date Of Joining";
+            this.DateOfJoining.HeaderText = "Joining Date";
             this.DateOfJoining.Name = "DateOfJoining";
             // 
             // WageRage
@@ -345,7 +345,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1030, 516);
+            this.ClientSize = new System.Drawing.Size(1215, 516);
             this.Controls.Add(this.panelFooter);
             this.Controls.Add(this.headerPanel);
             this.Controls.Add(this.sideBarPanel);
@@ -382,6 +382,10 @@
         private System.Windows.Forms.Panel panelLogo;
         private System.Windows.Forms.PictureBox picBoxLogo;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnGeneratePayroll;
+        private System.Windows.Forms.Button btnAddEmployee;
+        private System.Windows.Forms.Button btnGenerateReport;
+        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Id;
         private System.Windows.Forms.DataGridViewTextBoxColumn FullName;
         private System.Windows.Forms.DataGridViewTextBoxColumn Address;
@@ -392,9 +396,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn DateOfJoining;
         private System.Windows.Forms.DataGridViewTextBoxColumn WageRage;
         private System.Windows.Forms.DataGridViewTextBoxColumn HoursWorked;
-        private System.Windows.Forms.Button btnGeneratePayroll;
-        private System.Windows.Forms.Button btnAddEmployee;
-        private System.Windows.Forms.Button btnGenerateReport;
-        private System.Windows.Forms.Label label4;
     }
 }

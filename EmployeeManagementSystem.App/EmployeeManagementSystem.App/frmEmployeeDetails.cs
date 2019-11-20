@@ -22,7 +22,7 @@ namespace EmployeeManagementSystem.App
         private void btnAddEmployee_Click(object sender, EventArgs e)
         {
             var addEmployee = new frmAddEmployee();
-            addEmployee.IdentityUpdated += this.SaveRecord;
+            //addEmployee.IdentityUpdated += this.SaveRecord;
             addEmployee.ShowDialog();
         }
 
